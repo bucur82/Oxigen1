@@ -590,15 +590,15 @@ body {
 }
 /*==========================*/
 .team {
-  min-height: 999px;
-  margin-top: 49px;
+  min-height: 1044px;
 }
-.title {
+.title__team {
   font-weight: 700;
   font-size: 60px;
   line-height: 75px;
-  padding-top: 110px;
-  margin-bottom: 132px;
+  padding-top: 120px;
+  padding-left: 135px;
+
   letter-spacing: -1.65px;
   color: #242121;
 }
@@ -608,6 +608,7 @@ body {
   min-height: 520px;
   max-width: 1170px;
   margin-left: 135px;
+  padding-top: 132px;
 }
 .team__item-name {
   font-family: "Montserrat";
@@ -635,19 +636,20 @@ body {
   min-height: 1073px;
   background: #f6f8fa;
 }
-.title {
+.title__pricing {
   font-weight: 700;
   font-size: 60px;
   line-height: 75px;
   letter-spacing: -1.65px;
   padding-top: 145px;
+  padding-left: 137px;
   color: #242121;
 }
 .pricing__decor {
   width: 60px;
   height: 4px;
   margin-left: 137px;
-  margin-top: -120px;
+  margin-top: 14px;
   background: #fcbb08;
 }
 .pricing__items {
@@ -679,6 +681,7 @@ body {
   height: 109px;
   margin-left: 105px;
   margin-top: 8px;
+  margin-bottom: 10px;
   display: inline-block;
   color: #242121;
 }
@@ -708,8 +711,7 @@ body {
 }
 
 .pricing__list {
-  height: 230px;
-  border: 1px solid #333333;
+  height: 260px;
   align-items: center;
 }
 .pricing__list-item {
@@ -717,9 +719,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 22px;
-
   text-align: center;
-
   color: #242121;
 }
 .ul,
@@ -727,4 +727,113 @@ li {
   padding-top: 30px;
 }
 .pricing__btn {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  background: none;
+  border: 0px;
+  padding-top: 69px;
+  padding-left: 124px;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+/*-----------------*/
+.milk {
+  min-height: 292px;
+}
+.contact {
+  height: 896px;
+}
+.contact__content {
+  max-width: 569px;
+  margin-left: 137px;
+}
+.contact__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  letter-spacing: -1.65px;
+  padding-top: 145px;
+}
+.contact__decor {
+  width: 60px;
+  height: 4px;
+  margin-top: 14px;
+  background: #fcbb08;
+}
+
+.contact__form {
+  width: 569px;
+  height: 317px;
+}
+.contact__form-input_name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 94px;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+  border: none;
+}
+.contact__line_name {
+  width: 569px;
+  height: 2px;
+  margin-top: 16px;
+  background: #373a39;
+}
+.contact__form-input_email {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 30px;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+  border: none;
+}
+.contact__line_mail {
+  width: 569px;
+  height: 2px;
+  margin-top: 16px;
+  background: #373a39;
+}
+
+.contact__form-textarea {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 53px;
+  letter-spacing: 3.70909px;
+  color: #b8b8b8;
+  border: none;
+}
+.contact__form-input_area {
+  width: 569px;
+  height: 2px;
+  margin-top: 134px;
+  background: #373a39;
+}
+.contact__form-btn {
+  width: 230px;
+  height: 45px;
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+  background: #242121;
+}
+.contact__map {
+  position: absolute;
+  padding-left: 805px;
+  margin-top: -555px;
+}
+.contact__pin {
+  position: relative;
+  margin-left: 1122px;
+  margin-top: -163px;
 }

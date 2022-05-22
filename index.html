@@ -305,7 +305,7 @@
     </section>
     <section class="team">
         <div class="container">
-          <div class="title">Our Team</div>
+          <div class="title__team">Our Team</div>
           <div class="team__items">
               <div class="team__item">
                 <img class="team__item-img" src="img/bernard.png" alt="">
@@ -328,12 +328,12 @@
     <section class="pricing">
       <div class="container">
         <div class="pricing-plans">
-      <div class="title">
-        Pricing Plans
-      </div>
-      <div class="pricing__decor">
-      </div>
-      <div class="pricing__items">
+          <div class="title__pricing">
+          Pricing Plans
+          </div>
+          <div class="pricing__decor">
+          </div>
+          <div class="pricing__items">
         <div class="pricing__item">
           <div class="pricing__item-name">Basic</div>
           <div class="pricing__item-box">
@@ -352,8 +352,10 @@
         </div>
         <div class="pricing__item">
           <div class="pricing__item-name">Starter</div>
-          <div class="pricing__item-rate">
-            50<span>/ mo</span>
+          <div class="pricing__item-box">
+            <div class="pricing__item-usd">$</div>
+            <div class="pricing__item-number">50</div>
+            <div class="pricing__item-text">/ mo</div>
           </div>
           <ul class="pricing__list">
             <li class="pricing__list-item">2 Logo Design</li>
@@ -366,8 +368,10 @@
         </div>
         <div class="pricing__item">
           <div class="pricing__item-name">Professional</div>
-          <div class="pricing__item-rate">
-            70<span>/ mo</span>
+          <div class="pricing__item-box">
+            <div class="pricing__item-usd">$</div>
+            <div class="pricing__item-number">79</div>
+            <div class="pricing__item-text">/ mo</div>
           </div>
           <ul class="pricing__list">
             <li class="pricing__list-item">3 Logo Design</li>
@@ -378,21 +382,29 @@
           </ul>
           <button class="pricing__btn">CHOOSE PLAN</button>
         </div>
-      </div>
-    </div>
-    </div>
+          </div>
+        </div>
+       </div>
+    </section>
+    <section class="milk">
     </section>
     <section class="contact">
       <div class="container">
         <div class="contact__content">
+          <div class="contact__title">Get in Touch</div>
+          <div class="contact__decor"></div>
           <form class="contact__form" action="">
-            <input class="contact__form-input" type="text" placeholder="YOUR NAME">
-            <input class="contact__form-input" type="text" placeholder="VALID EMAIL">
-            <textarea class="contact__form-textarea" placeholder="YOUR MESSAGE"></textarea>
+            <div><input class="contact__form-input_name" type="text" placeholder="YOUR NAME"></div>
+            <div class="contact__line_name"></div>
+            <div><input class="contact__form-input_email" type="text" placeholder="VALID EMAIL"></div>
+            <div class="contact__line_mail"></div>
+            <div><textarea class="contact__form-textarea" placeholder="YOUR MESSAGE"></textarea></div>
+            <div class="contact__form-input_area"></div> 
             <button class="contact__form-btn">SEND MESSAGE</button>
           </form>
         </div>
-        <div class="contact__map"></div>
+        <div class="contact__map"><img src="img/map.png" alt="Карта"></div>
+        <div class="contact__pin"><img src="img/Pin.png" alt=""></div>
       </div>
     </section>
     <footer class="footer">
