@@ -841,15 +841,9 @@ li {
   background: #373a39;
   text-align: center;
 }
-.container {
-}
-.logo {
-}
 .logo__foot {
   margin-top: 110px;
   color: #00b2a0;
-}
-.logo__link {
 }
 .footer__decor {
   width: 150px;
@@ -881,8 +875,6 @@ li {
   margin-top: 61px;
   color: #a8a8a8;
   text-align: center;
-}
-.footer__adress {
 }
 .footer__phone {
   font-family: "Open Sans";
